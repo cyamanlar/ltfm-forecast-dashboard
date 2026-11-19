@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Student data stays on the student's own computer (not pushed to GitHub)
+data/*
+!data/.gitkeep
+backups/*.csv
+tests/data/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+.streamlit/secrets.toml
